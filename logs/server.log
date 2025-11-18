@@ -3,46 +3,7 @@
 > vite
 
 
-  VITE v5.4.20  ready in 294 ms
+  VITE v5.4.20  ready in 272 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.4.240:3000/
-8:20:30 PM [vite] Pre-transform error: Failed to resolve import "react-icons/si" from "src/components/TechWall.jsx". Does the file exist?
-8:20:33 PM [vite] Internal server error: Failed to resolve import "react-icons/si" from "src/components/TechWall.jsx". Does the file exist?
-  Plugin: vite:import-analysis
-  File: /home/workspace/src/components/TechWall.jsx:3:170
-  2  |  import React from "react";
-  3  |  import { motion } from "framer-motion";
-  4  |  import { SiNextdotjs, SiReact, SiTailwindcss, SiVercel, SiAmazonaws, SiKubernetes, SiDocker, SiPostgresql, SiMongodb, SiPython, SiFastapi, SiTypescript, SiGraphql } from "react-icons/si";
-     |                                                                                                                                                                             ^
-  5  |  const techs = [
-  6  |    { icon: SiNextdotjs, name: "Next.js" },
-      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
-      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
-      at normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
-      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
-      at async Promise.all (index 3)
-      at async TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
-      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
-      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
-      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
-8:21:16 PM [vite] Internal server error: Failed to resolve import "react-icons/si" from "src/components/TechWall.jsx". Does the file exist?
-  Plugin: vite:import-analysis
-  File: /home/workspace/src/components/TechWall.jsx:3:170
-  2  |  import React from "react";
-  3  |  import { motion } from "framer-motion";
-  4  |  import { SiNextdotjs, SiReact, SiTailwindcss, SiVercel, SiAmazonaws, SiKubernetes, SiDocker, SiPostgresql, SiMongodb, SiPython, SiFastapi, SiTypescript, SiGraphql } from "react-icons/si";
-     |                                                                                                                                                                             ^
-  5  |  const techs = [
-  6  |    { icon: SiNextdotjs, name: "Next.js" },
-      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
-      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
-      at normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
-      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
-      at async Promise.all (index 3)
-      at async TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
-      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
-      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
-      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
